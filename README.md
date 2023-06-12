@@ -232,11 +232,13 @@ you will find example sketch that you can open, look at, edit and upload. These 
 When you install a new library, it will often come with example code that you can use to understand how best to implement the code from that library.
 
 ### More Examples
-I have included some more examples in the [example-code section of the GitHub repo](example-code/).
+I have included some more examples in the [example-code section of this GitHub repo](example-code/).
+
+You can also find some more practical examples in [this repo](https://github.com/Edinburgh-College-of-Art/arduino-examples)
 
 
 # Pins
-Arduinos can be used to read from and control various external components, such as LEDs, buttons, buzzers etc. These devices can be connected via the pins on the ARduino board. 
+Arduinos can be used to read from and control various external components, such as LEDs, buttons, buzzers etc. These devices can be connected via the pins on the Arduino board. 
 
 These pins can be separated into four main catagories:
 
@@ -489,3 +491,5 @@ You can loan a grove sensor kit from ECA Bookit ([see here](https://bookit.eca.e
 - There is a [Arduino Coding Basics](https://media.ed.ac.uk/playlist/dedicated/1_9kek9y97/) video tutorial series on the Digital Development ECA Media Hopper channel.
 
 - If you need to purchase components, [Pimoroni](https://shop.pimoroni.com/), [Pi Hut](https://thepihut.com/), [RS](https://uk.rs-online.com/web/) and [Mouser](https://www.mouser.co.uk/) are some sites you may want to look at.
+
+- There are some more practical examples of Arduino projects in [this repo](https://github.com/Edinburgh-College-of-Art/arduino-examples)
