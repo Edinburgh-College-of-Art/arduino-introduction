@@ -1,4 +1,7 @@
 # Getting Started with Arduino
+
+<img src="images/Hero.png" width="1000">
+
 # Contents
 - [Getting Started with Arduino](#getting-started-with-arduino)
     - [Contents](#contents)
