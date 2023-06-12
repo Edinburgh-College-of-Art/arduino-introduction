@@ -88,15 +88,15 @@ These have a few variations that are good to be aware of:
 
 Male to Male - useful for connecting Arduino pins to a breadboard.
 
-<img src="images/JumperWire_Male.png" width="300">
+<img src="images/JumperWire_Male.png" width="480">
 
 Male to Female - for connecting to male pins, or extending the length of a Male to Male wire.
 
-<img src="images/JumperWire_Female.png" width="300">
+<img src="images/JumperWire_Female.png" width="480">
 
 Ribbon Cable - useful for components that have lots of pins. Can have male or female ends.
 
-<img src="images/JumperWire_Ribbon.png" width="300">
+<img src="images/JumperWire_Ribbon.png" width="480">
 
 
 ### Breadboard
@@ -106,7 +106,7 @@ A breadboard (sometimes referred to as a solderless breadboard) is a useful tool
 It is important to understand how these pads are connected on a breadboard. As you can see below, there are two long rails on each side that extend all the way along the breadboard. These are called the power rails, and are often used to connect to the 5V and GND pins on the Arduino to supply a constant voltage for components that need to be powered.
 
 
-<img src="images/Breadboard.png" width="400"><img src="images/Breadboard_Annotated.png" width="400">
+<img src="images/Breadboard.png" width="480"><img src="images/Breadboard_Annotated.png" width="480">
 
 Every pin on each row on the breadboard is connected to every other pin in that row, except for a break in the middle of the board. This gap allows for larger components, such as push buttons and ICs, to be placed on the breadboard without shorting any unwanted connections.    
 
@@ -126,7 +126,7 @@ To program the Arduino boards, Arduino provides a piece of software called and I
 ### Layout
 Arduino projects are saved as "sketches" and by default a sketch will open up once you have downloaded the IDE. These are some things to be aware of:
 
-<img src="images/ArduinoIDE_Annotated.png" width="600">
+<img src="images/ArduinoIDE_Annotated.png" width="800">
 
 1. Text Editor: this is where you will write the code for the Arduino.
 2. Console: any errors in your code will be flagged here when you verify/upload your code.
@@ -154,15 +154,17 @@ Once you have created a sketch, you will need to upload it to your Arduino.
 ### Connect to a Device
 You must ensure the Arduino is connected to your computer via a USB connection. If you are connected, a USB icon will appear next to the board name at the top of the IDE. This icon will *not* appear if you are not connected. 
 
-<img src="images/ArduinoIDE_Connection_Disconnected.png" width="400"><img src="images/ArduinoIDE_Connection_Connected.png" width="400">
+<img src="images/ArduinoIDE_Connection_Disconnected.png" width="480">
+
+<img src="images/ArduinoIDE_Connection_Connected.png" width="480">
 
 Most Arduino boards will be automatically detected by the IDE, but if not, you can specify which board and USB port you are using by opening the dropdown menu and selecting the right one.
 
-<img src="images/ArduinoIDE_SelectBoard.png" width="200">
+<img src="images/ArduinoIDE_SelectBoard.png" width="300">
 
 If your Arduino still doesn't appear here, select *Select other board and port* for more options.
 
-<img src="images/ArduinoIDE_SelectBoard_Other.png" width="480">
+<img src="images/ArduinoIDE_SelectBoard_Other.png" width="600">
 
 Here you can search for the right board and select the correct port (usually the one with *(USB)* next to it).
 
@@ -242,7 +244,7 @@ These pins can be separated into four main catagories:
 
 Here is a diagram of where these pins are located on an Arduino UNO:
 
-<img src="images/Arduino_UNO_R3_Annotated.png" width="600">
+<img src="images/Arduino_UNO_R3_Annotated.png" width="800">
 
 ### Setup
 All pins must be declared using <code>pinMode()</code> inside the <code>setup()</code> function.
@@ -299,7 +301,7 @@ If we want to send a signal between 0-5V, we can approximate an analog signal us
 
 It is important to not that this is just an approximation of an analog signal using duty cycles of HIGH and LOW digital signals to approximate different voltages.
 
-<img src="images/DutyCycle.png" width="600">
+<img src="images/DutyCycle.png" width="800">
 
 To make use of PWM pins in out code, we can use the <code>analogWrite()</code> function. Instead of passing in HIGH or LOW as arguments, we can use an integer value between 0-255 (0 = 0V, 255 = 5V).
 
@@ -323,17 +325,17 @@ DIP LEDs have two legs. The longer leg (Anode) must be connected to the positive
 You can program an Arduino to control a connected DIP LED using the <code>digitalWrite()</code> and <code>analogWrite()</code> functions ([see here](#pins))
 
 #### Single colour
-<img src="images/LED_DIP.png" width="300">
+<img src="images/LED_DIP.png" width="400">
 
 DIP LEDs are most commonly sold in single colours as 5mm or 3mm units.
 
 #### RGB
-<img src="images/LED_DIP_RGB.png" width="300">
+<img src="images/LED_DIP_RGB.png" width="400">
 
 RGB LEDs contain a red, green and blue LED. Some are manufactured with a shared anode (+ve terminal), whilst others share a cathode (-ve terminal). Make sure you know which type you have before wiring it into a circuit. For best impact, use the <code>analogWrite()</code> function to blend the colours together.
 
 ### Strip
-<img src="images/LED_Strip.png" width="300">
+<img src="images/LED_Strip.png" width="400">
 
 LED strips make it easy to expand the number of LEDs in your project without using up more pins on the Arduino.
 
@@ -351,7 +353,7 @@ On addressable strips, each LED on the strip also has a small IC that can contro
 Make sure you know what type you need before purchasing.
 
 ### NeoPixel
-<img src="images/LED_NeoPixel.png" width="300">
+<img src="images/LED_NeoPixel.png" width="400">
 
 NeoPixel is a line of products manufactured by Adafruit. They make use of addressable ws2812 LEDs and come in various sized rings, strips, bars, matrices etc.
 
@@ -361,14 +363,14 @@ You will need to install this library if you want to program NeoPixel products. 
 
 ## Motors
 ### Servo
-<img src="images/Motor_Servo.png" width="300">
+<img src="images/Motor_Servo.png" width="400">
 
 Servo motors are designed to provide precise control over angular or linear position, velocity, and acceleration.  They are known for their high torque, fast response times, and excellent positional accuracy.
 
 To control a servo with Arduino, you will need to make use of the Servo library. [See here](example-code/Motors/ServoMotor/ServoMotor.ino) for an example sketch.
 
 ### Stepper
-<img src="images/Motor_Stepper.png" width="300">
+<img src="images/Motor_Stepper.png" width="400">
 
 Stepper motors are a type of electric motor commonly used in various applications that require precise control over position and movement. They are known for their high torque, open-loop control, and ability to hold their position even when not powered
 
@@ -377,7 +379,7 @@ To control a stepper motor with Arduino, you will need a separate power supply a
 [See here](example-code/Motors/SparkfunEasyDriver_Stepper/SparkfunEasyDriver_Stepper.ino) for an example sketch for using the [Sparkfun Easy Driver](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide/all) with a NEMA 16 stepper motor.
 
 ### DC
-<img src="images/Motor_DC.png" width="300">
+<img src="images/Motor_DC.png" width="400">
 
 Direct Current (DC) motors, are widely used in various applications due to their simplicity and versatility. They convert electrical energy into mechanical motion by utilizing the magnetic field created by direct current.By controlling the voltage applied to the motor, the speed and direction of rotation can be adjusted.
 
@@ -385,7 +387,7 @@ To control a DC motor with Arduino, you will need a DC motor driver module and a
 
 ## Sound
 ### Buzzers
-<img src="images/Buzzer.png" width="300">
+<img src="images/Buzzer.png" width="400">
 
 Buzzers  come in two main types: active and passive.
 
@@ -404,14 +406,14 @@ An active buzzer is a self-contained sound-generating device. It incorporates a 
 For a lot of beginner projects, buttons and dials are a great way to add controls to your projects. They are reasonably simple to connect to a circuit and allows us to understand digital and analog signals better in our code.
 
 ### Buttons
-<img src="images/Button.png" width="300">
+<img src="images/Button.png" width="400">
 
 Buttons are commonly used with Arduino to provide user input and trigger actions in electronic projects. When a button is connected to an Arduino, it can be programmed to detect button presses or releases, allowing you to respond to user interactions and control various aspects of your project, such as toggling LEDs, navigating menus, or initiating specific functions.
 
 [See here](example-code/StarterCode/ButtonLED/ButtonLED.ino) for an example sketch using a button.
 
 ### Potentiometers
-<img src="images/Potentiometer.png" width="300">
+<img src="images/Potentiometer.png" width="400">
 
 Potentiometers, also known as pots, are frequently used with Arduino to provide analog input and enable user-controlled variable resistance. When a potentiometer is connected to an Arduino, it can be used to measure the position of the potentiometer's adjustable knob or slider. This analog input can be used to control parameters like volume, brightness, or speed, allowing users to interact with Arduino-based projects and adjust settings in a smooth and continuous manner.
 
@@ -419,7 +421,7 @@ Potentiometers, also known as pots, are frequently used with Arduino to provide 
 
 ## Light
 ### LDRs 
-<img src="images/LDR.png" width="300">
+<img src="images/LDR.png" width="400">
 
 Light-Dependent Resistors (LDRs) are commonly used with Arduino to detect and respond to changes in light intensity. When an LDR is connected to an Arduino, it acts as a variable resistor that changes its resistance based on the amount of light falling on it. By reading the analog voltage from the LDR using an analog input pin on the Arduino, you can determine the level of ambient light. This information can be used to create light-sensitive projects, such as automatic lighting systems, brightness control, or even light-based interactive installations.
 
@@ -427,7 +429,7 @@ Light-Dependent Resistors (LDRs) are commonly used with Arduino to detect and re
 
 ## Distance
 ### SR04 Ultra Sonic Sensor
-<img src="images/SR04.png" width="300">
+<img src="images/SR04.png" width="400">
 
 When working with distance sensing, the HC-SR04 ultrasonic sensor is a popular choice for Arduino projects. The HC-SR04 sensor uses ultrasonic waves to measure distance by sending out a sound pulse and calculating the time it takes for the pulse to bounce back after hitting an object. When connected to an Arduino, the HC-SR04 sensor provides accurate distance measurements that can be used in various applications such as obstacle detection, object tracking, and proximity sensing. 
 
@@ -435,7 +437,7 @@ When working with distance sensing, the HC-SR04 ultrasonic sensor is a popular c
 
 ## Weight
 ### Load Cells
-<img src="images/LoadCell.png" width="300">
+<img src="images/LoadCell.png" width="400">
 
 Load cells are commonly used with Arduino to measure and monitor weight or force in various applications. When a load cell is connected to an Arduino, it can provide precise measurements of the applied force or weight. By using an analog input pin on the Arduino, the load cell's electrical output can be read and processed to determine the weight or force being applied. Load cells are commonly used in projects such as scales, force measurement devices, and industrial automation systems that require accurate weight sensing and monitoring.
 
