@@ -33,7 +33,7 @@ void loop() {
 
   // Turn the LEDs off, then pause
   for (int i = 0; i < NUM_LEDS; i++)
-    leds[0] = CRGB::Black;
+    leds[i] = CRGB::Black;
   
   FastLED.show();
   delay(500);
