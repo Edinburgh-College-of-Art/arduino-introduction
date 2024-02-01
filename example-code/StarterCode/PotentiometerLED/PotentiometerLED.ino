@@ -5,7 +5,7 @@
 // an Arduino and a potentiometer
 //
 // Circuit:
-// Arduino Pin 2 -> 200Ohm Resistor -> LED -> GND
+// Arduino Pin 3 -> 200Ohm Resistor -> LED -> GND
 // 
 // 5V -> Potentiometer -> GND
 //            |
@@ -14,7 +14,7 @@
 //================================================
 
 // Declare pin numbers
-int ledPin = 2;
+int ledPin = 3;
 int potPin = A0;
 
 void setup() {
