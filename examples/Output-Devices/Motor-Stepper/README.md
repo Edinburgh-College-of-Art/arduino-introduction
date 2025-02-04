@@ -4,6 +4,10 @@
 
 ## Contents
 
+- [Introduction](#introduction)
+- [Sparkfun EasyDriver](#sparkfun-easydriver)
+    - [Wiring](#wiring)
+    - [Code](#code)
 
 ## Introduction
 Stepper motors are a type of brushless DC motor that are used for operations that require precise control of when/where the motor starts and stops.  
