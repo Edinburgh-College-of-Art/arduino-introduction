@@ -45,7 +45,7 @@ To make use of the HX711 more easily, we can use the HX711 Arduino Library by Bo
 
 <img src="images/HX711_Library.png" width=300>
 
-If you are unsure how to install a library, you can read more on [this page](/examples/Getting-Started/Libraries/README.md).
+If you are unsure how to install a library, you can read more on [this page](/examples/Code/7-Libraries/README.md).
  
 ### Setup the Load Cell
 A typical bar strain gauge load cell will produce the best results when force is applied from either side in opposite directions. You will need to take this into account when setting up your load cell. Typically, you should fix one side of the bar while downward pressure to the opposite side, like so:
