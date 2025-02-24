@@ -20,18 +20,26 @@
     - [Scaling](/examples/Code/9-Scaling/README.md)
     - [String Methods](/examples/Code/10-StringMethods/README.md)
     - [Merging Sketches](/examples/Code/11-MergingSketches/README.md)
-- Input Devices
-    - [Buttons](/examples/Input-Devices/Buttons/)
-    - [Potentiometers](/examples/Input-Devices/Potentiometers/)
-    - [Light Dependent Resistors (LDRs)](/examples/Input-Devices/LDRs/)
-    - [Ultrasonic Distance Sensors](/examples/Input-Devices/Distance-Sensor-SR04/)
-    - [Load Cells (Weight Sensors)](/examples/Input-Devices/Load-Cells/)
-- Output Devices
-    - [LEDs (Single)](/examples/Output-Devices/LED-DIP/)
-    - [LEDs (NeoPixel)](/examples/Output-Devices/LED-NeoPixel/)
-    - [LEDs (Strips)](/examples/Output-Devices/LED-Strip/)
-    - [Servo Motors](/examples/Output-Devices/Motor-Servo/)
-    - [Stepper Motors](/examples/Output-Devices/Motor-Stepper/)
+- Inputs
+    - Input Types
+        - [Digital](/examples/Input-Devices/Input-Types/Digital/README.md)
+        - [Analog](/examples/Input-Devices/Input-Types/Analog/README.md)
+    - Input Devices (Alphabetical)
+        - [Buttons](/examples/Input-Devices/Digital/Buttons/)
+        - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Digital/Distance-Sensor-SR04/)
+        - [Light Sensor - LDRs](/examples/Input-Devices/Analog/LDRs/)
+        - [Potentiometers](/examples/Input-Devices/Analog/Potentiometers/)
+        - [Weight Sensors - Load Cells](/examples/Input-Devices/Analog/Load-Cells/)
+- Outputs
+    - Output Types
+        - [Digital](/examples/Output-Devices/Output-Types/Digital/README.md)
+        - [Analog (PWM)](/examples/Output-Devices/Output-Types/Analog-PWM/README.md)
+    - Output Devices (Alphabetical)
+        - [LEDs - NeoPixel](/examples/Output-Devices/LED-NeoPixel/)
+        - [LEDs - Single](/examples/Output-Devices/LED-DIP/)
+        - [LEDs - Strips](/examples/Output-Devices/LED-Strip/)
+        - [Motors - Servo](/examples/Output-Devices/Motor-Servo/)
+        - [Motors - Stepper](/examples/Output-Devices/Motor-Stepper/)
 
 ## Useful Resources
 - Websites
