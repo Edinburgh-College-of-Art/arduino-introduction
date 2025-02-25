@@ -25,11 +25,11 @@
         - [Digital](/examples/Input-Devices/Input-Types/Digital/README.md)
         - [Analog](/examples/Input-Devices/Input-Types/Analog/README.md)
     - Input Devices (Alphabetical)
-        - [Buttons](/examples/Input-Devices/Digital/Buttons/)
-        - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Digital/Distance-Sensor-SR04/)
-        - [Light Sensor - LDRs](/examples/Input-Devices/Analog/LDRs/)
-        - [Potentiometers](/examples/Input-Devices/Analog/Potentiometers/)
-        - [Weight Sensors - Load Cells](/examples/Input-Devices/Analog/Load-Cells/)
+        - [Buttons](/examples/Input-Devices/Buttons/)
+        - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Distance-Sensor-SR04/)
+        - [Light Sensor - LDRs](/examples/Input-Devices/LDRs/)
+        - [Potentiometers](/examples/Input-Devices/Potentiometers/)
+        - [Weight Sensors - Load Cells](/examples/Input-Devices/Load-Cells/)
 - Outputs
     - Output Types
         - [Digital](/examples/Output-Devices/Output-Types/Digital/README.md)
@@ -38,6 +38,7 @@
         - [LEDs - NeoPixel](/examples/Output-Devices/LED-NeoPixel/)
         - [LEDs - Single](/examples/Output-Devices/LED-DIP/)
         - [LEDs - Strips](/examples/Output-Devices/LED-Strip/)
+        - [Motors - DC](/examples/Output-Devices/Motor-DC/)
         - [Motors - Servo](/examples/Output-Devices/Motor-Servo/)
         - [Motors - Stepper](/examples/Output-Devices/Motor-Stepper/)
 
