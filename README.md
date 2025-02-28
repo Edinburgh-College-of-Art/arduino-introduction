@@ -27,6 +27,7 @@
     - Input Devices (Alphabetical)
         - [Buttons](/examples/Input-Devices/Buttons/)
         - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Distance-Sensor-SR04/)
+        - [Force Sensors - FSRs](/examples/Input-Devices/FSRs/)
         - [Light Sensor - LDRs](/examples/Input-Devices/LDRs/)
         - [Potentiometers](/examples/Input-Devices/Potentiometers/)
         - [Weight Sensors - Load Cells](/examples/Input-Devices/Load-Cells/)
