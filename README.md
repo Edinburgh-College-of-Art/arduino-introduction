@@ -35,6 +35,7 @@
         - [Digital](/examples/Output-Devices/Output-Types/Digital/README.md)
         - [Analog (PWM)](/examples/Output-Devices/Output-Types/Analog-PWM/README.md)
     - Output Devices (Alphabetical)
+        - [Buzzers](/examples/Output-Devices/Buzzers/)
         - [LEDs - NeoPixel](/examples/Output-Devices/LED-NeoPixel/)
         - [LEDs - Single](/examples/Output-Devices/LED-DIP/)
         - [LEDs - Strips](/examples/Output-Devices/LED-Strip/)
