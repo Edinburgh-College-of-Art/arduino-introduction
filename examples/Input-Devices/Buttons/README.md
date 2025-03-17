@@ -61,7 +61,7 @@ As previously mentioned, we will need to declare the button pin as <code>INPUT_P
 int buttonPin = 3;
 
 void setup() {
-    pinMode(INPUT_PULLUP);
+    pinMode(buttonPin, INPUT_PULLUP);
 }
 ```
 
