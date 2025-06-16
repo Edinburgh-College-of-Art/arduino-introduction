@@ -45,7 +45,7 @@ To get readings from our capacitive sensors more easily, we can use the [Capacit
 
 <img src="images/CapSenseLib.png" width=300>
 
-If you are unsure how to install a library, you can read more on [this page](/examples/Code/7-Libraries/README.md).
+If you are unsure how to install a library, you can read more on [this page](/examples/Code/07-Libraries/README.md).
 
 ## Usage
 ### Wiring
@@ -69,7 +69,7 @@ This should look something like this:
 <img src="images/WiringDiagram2.png" width="700">
 
 ### Code
-We will first need to include the `CapacitiveSensor.h` library at the top of the sketch. This will give us access to the necessary [classes](/examples/Code/6-Classes/README.md) and [functions](/examples/Code/5-Functions/README.md) for reading data from our sensor(s).
+We will first need to include the `CapacitiveSensor.h` library at the top of the sketch. This will give us access to the necessary [classes](/examples/Code/06-Classes/README.md) and [functions](/examples/Code/05-Functions/README.md) for reading data from our sensor(s).
 
 ``` cpp
 #include <CapacitiveSensor.h>

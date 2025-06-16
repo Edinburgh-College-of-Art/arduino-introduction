@@ -53,7 +53,7 @@ To use NeoPixel with Arduino, you must first install the Adafruit NeoPixel libra
 
 The NeoPixel library also provides example sketches that we can use straight away. If you navigate to *File → Examples → Adafruit NeoPixel* you should find some useful sketches to try. You can also find a [blink example](NeoPixel_Blink/NeoPixel_Blink.ino) and a [moving pixel](NeoPixel_Moving/NeoPixel_Moving.ino) example in this repo.
 
-If you are unsure how to install a library, you can read more on [this page](/examples/Code/7-Libraries/README.md).
+If you are unsure how to install a library, you can read more on [this page](/examples/Code/07-Libraries/README.md).
 
 ### Class Methods
 Installing and including the Adafruit NeoPixel library provides us with a class definition called <code>Adafruit_NeoPixel</code>. This class contains all the methods we will need for controlling NeoPixel LEDs from our code.
