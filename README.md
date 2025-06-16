@@ -26,6 +26,7 @@
         - [Analog](/examples/Input-Devices/Input-Types/Analog/README.md)
     - Input Devices (Alphabetical)
         - [Buttons](/examples/Input-Devices/Buttons/)
+        - [Capacitive Touch Sensing](/examples/Input-Devices/Capacitive-Sensing/)
         - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Distance-Sensor-SR04/)
         - [Force Sensors - FSRs](/examples/Input-Devices/FSRs/)
         - [Light Sensor - LDRs](/examples/Input-Devices/LDRs/)
