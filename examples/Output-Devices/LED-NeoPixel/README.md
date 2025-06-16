@@ -49,7 +49,7 @@ For example, you may choose to connect your NeoPixel to your Arduino board using
 ### Installing
 ![](images/NeoPix_Library.png)
 
-To use NeoPixel with Arduino, you must first install the Adafruit NeoPixel library. This will give us all of the objects and functions we need to operate a NeoPixel using code.
+To use NeoPixel with Arduino, you must first install the [Adafruit NeoPixel Arduino library](https://github.com/adafruit/Adafruit_NeoPixel). This will give us all of the objects and functions we need to operate a NeoPixel using code.
 
 The NeoPixel library also provides example sketches that we can use straight away. If you navigate to *File → Examples → Adafruit NeoPixel* you should find some useful sketches to try. You can also find a [blink example](NeoPixel_Blink/NeoPixel_Blink.ino) and a [moving pixel](NeoPixel_Moving/NeoPixel_Moving.ino) example in this repo.
 

@@ -41,11 +41,11 @@ You may also choose to solder the wires from the load cell straight onto the HX7
 ![](images/HX711_Wired.png)
 
 ### Install the HX711 Library
-To make use of the HX711 more easily, we can use the HX711 Arduino Library by Bogdan Necula and Andreas Motl. This will give us access to function for calibrating and using the HX711 to read the force applied to our load cell. You will need to install this in the Arduino IDE's library manager.
+To make use of the HX711 more easily, we can use the [HX711 Arduino Library](https://github.com/bogde/HX711) by Bogdan Necula and Andreas Motl. This will give us access to functions for calibrating and using the HX711 to read the force applied to our load cell. You will need to install this in the Arduino IDE's library manager.
 
 <img src="images/HX711_Library.png" width=300>
 
-If you are unsure how to install a library, you can read more on [this page](/examples/Code/7-Libraries/README.md).
+If you are unsure how to install a library, you can read more on [this page](/examples/Code/07-Libraries/README.md).
  
 ### Setup the Load Cell
 A typical bar strain gauge load cell will produce the best results when force is applied from either side in opposite directions. You will need to take this into account when setting up your load cell. Typically, you should fix one side of the bar while downward pressure to the opposite side, like so:

@@ -40,7 +40,7 @@ For a full example sketch, [click here](Servo_Sweep/Servo_Sweep.ino).
 
 To control a servo from the project code, you will first need to include the servo library at the top of your sketch. You can also store the data pin number as a variable to use later.
 
-Lastly, we will also need to create an instance of the <code>Servo</code> class provided to us by the servo library. This will contain the methods needed for controlling the servo. You can call this instance anything you want to, but for simplicity and readability, We will call it <code>myServo</code> for the rest of this page.  
+Lastly, we will also need to create an instance of the <code>Servo</code> class provided to us by the [Servo Arduino library](https://github.com/arduino-libraries/Servo). This will contain the methods needed for controlling the servo. You can call this instance anything you want to, but for simplicity and readability, We will call it <code>myServo</code> for the rest of this page.  
 
 ``` cpp
 #include <Servo.h>
