@@ -39,35 +39,12 @@ As mentioned previously, to get a variable voltage reading from a potentiometer,
 ![](images/Pot_Wiring.png)
 
 ### Code
-For a full example sketch, [see here](Potentiometer_Read/Potentiometer_Read.ino).
+Unlike when using the Arduinos' [digital input](/examples/Input-Devices/Input-Types/Digital/README.md) pins, we do not need to use `pinMode()` function to set the [analog pins](/examples/Input-Devices/Input-Types/Analog/README.md) to work as inputs. They are set to `INPUT` by default.
 
-In our sketch, we first need to initialize the pin as an input using the <code>pinMode()</code> function.
-
-``` cpp
-// Store pin number as variable
-int potPin = A0;
-
-// Initialize as input
-pinMode(potPin, INPUT);
-```
-
-We can then read the input voltage using the <code>analogRead()</code> function.
+We can read the input voltage using the <code>analogRead()</code> function.
 
 ``` cpp
-int readValue = analogRead(potPin);
+int readValue = analogRead(A0); // Read value at pin A0
 ```
 
-### Precision
-To convert the voltage into a readable value, the Arduino board will contain a small analog to digital converter (ADC) chip that will - as the name suggests - convert the analog input voltage into a digital value.
-
-For most electronic development boards, this will convert the voltage into a value with 10 bits of precision. This gives us a value of between 0 and 1023.
-
-However, some boards may contain ADCs that will convert the analog value with a  higher or lower amount of precision. This will in turn give us a different digital value. 
-
-To check what the upper and lower limits are for your boards ADC, you can simply print out the <code>analogRead()</code> value to see them in the [serial monitor](/examples/Getting-Started/Serial-Monitor/README.md).
-
-``` cpp
-Serial.println(analogRead(potPin));
-```
-
-After uploading your sketch, try adjusting the potentiometer to its highest and lowest points and see what values are printed to the serial monitor.
+This will - for most boards - return a value between 0 and 1023 which we can use later on in our code.
