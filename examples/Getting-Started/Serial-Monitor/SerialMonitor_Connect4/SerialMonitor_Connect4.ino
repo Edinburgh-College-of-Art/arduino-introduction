@@ -10,8 +10,8 @@
 //===================================================================
 // ASSERTIONS
 
-#if WIDTH < CONNECT || HEIGHT < CONNECT
-#error Matrix must be at least CONNECT elements wide and CONNECT elements tall
+#if WIDTH < 4 || HEIGHT < 4
+#error Matrix must be at least 4 elements wide and 4 elements tall
 #endif
 #if WIDTH > 9 || HEIGHT > 9
 #error Matrix must not exceed 9 elements in width or height
