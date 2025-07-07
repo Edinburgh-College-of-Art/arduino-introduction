@@ -1,11 +1,20 @@
-//===========================================================================
-// Potentiometer_SerialPlotter.ino
+//===================================================================
+// File: Potentiometer_SerialPlotter.ino
 //
+// Description:
 // - Use analogRead() to get potentiometer value.
-// - Format output for Serial Plotter.
+// - Format output for serial plotter.
+// - Upload sketch and open serial plotter.
 //
-// **To use this sketch, upload to your Arduino and open the Serial Plotter**
-//============================================================================
+// Pinout:
+//
+// GND <--- Potentiometer <--- 5V
+//                |
+//                |
+//               A0
+//
+// This code is in the public domain.
+//===================================================================
 
 // Store pin number
 int potPin = A0;

@@ -1,3 +1,20 @@
+//===================================================================
+// File: NeoPixel_Blink.ino
+//
+// Description:
+// - Sketch for blinking a NeoPixel ring on and off every second.
+//
+// Pinout:
+//
+// | NeoPixel | Arduino |
+// |--------- |---------|
+// | GND	    | GND     |   
+// | VCC 	    | 5V      |      
+// | IN	      | D6      |
+//
+// This code is in the public domain.
+//===================================================================
+
 #include <Adafruit_NeoPixel.h>
   
 // Store pin number and no. pixels as variables

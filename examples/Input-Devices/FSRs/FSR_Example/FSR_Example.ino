@@ -1,3 +1,21 @@
+//===================================================================
+// File: FSR_Example.ino
+//
+// Description:
+// - Read voltage level from FSR circuit.
+// - Results are printed to the serial monitor
+//
+// Pinout:
+//
+// FSR <--- 5V
+//  |
+//  |-----> A0
+//  |    
+//   -----> 10kΩ ---> GND
+
+// This code is in the public domain.
+//===================================================================
+
 int fsrPin = A0;  // connect FSR to pin A0
 
 void setup() {

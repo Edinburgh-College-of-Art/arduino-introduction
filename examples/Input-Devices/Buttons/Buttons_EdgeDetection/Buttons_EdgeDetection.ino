@@ -1,17 +1,15 @@
 //===================================================================
-// File:   Buttons_EdgeDetection.ino
-//
-// Author: J.Hathway 2024
+// File: Buttons_EdgeDetection.ino
 //
 // Description: 
-//          - Read the button value from pin 3.
+// - Read the button value from pin 3.
+// - Use edge detection to print when the button is:
+//         - pressed (falling edge).
+//         - released (rising edge).
+//  - Also flip state of switchState boolean and print data at end 
+//    of loop().
 //
-//          - Use edge detection to print when the button is:
-//                  - pressed (falling edge).
-//                  - released (rising edge).
-//
-//          - Also flip state of switchState boolean and print data
-//            at end of loop().
+// This code is in the public domain
 //=================================================================== 
 
 // Store pin numbers in variable

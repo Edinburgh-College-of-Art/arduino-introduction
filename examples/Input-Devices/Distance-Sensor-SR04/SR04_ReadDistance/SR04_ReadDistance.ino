@@ -1,3 +1,22 @@
+//===================================================================
+// File: SR04_ReadDistance.ino
+//
+// Description:
+// - Basic SR04 read sketch.
+// - Calculate distance in front of sensor and print to serial monitor.
+// 
+// Pinout:
+// 
+// | SR04 | Arduino |
+// |------|---------|
+// | GND  | GND     |
+// | VCC  | 5V      |
+// | TRIG | D3      |
+// | ECHO | D2      |
+//
+// This code is in the public domain.
+//===================================================================
+
 // Define pin numbers
 int trigPin = 3;
 int echoPin = 2;

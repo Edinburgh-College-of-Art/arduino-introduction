@@ -1,11 +1,10 @@
 //===================================================================
-// File:   Buttons_Read.ino
-//
-// Author: J.Hathway 2024
+// File: Buttons_Read.ino
 //
 // Description: 
-//          - Read the button value from pin 3 and print data to 
-//            serial monitor.
+// - Read the button value from pin 3 and print data to serial monitor.
+//
+// This code is in the public domain
 //===================================================================       
 
 // Store button pin number in variable

@@ -1,3 +1,22 @@
+//===================================================================
+// File: LoadCell_Calibrate.ino
+//
+// Description:
+// - Run this sketch and follow instructions on serial monitor to 
+//   calibrate your HX711.
+//
+// Pinout:
+//
+// | HX711 | Arduino |
+// |-------|---------|
+// | GND	 | GND     |   
+// | VCC 	 | 5V      |      
+// | DT	   | D2      |
+// | SCK 	 | D3      |
+//
+// This code is in the public domain.
+//===================================================================
+
 #include <HX711.h>
   
 // Define the pin locations

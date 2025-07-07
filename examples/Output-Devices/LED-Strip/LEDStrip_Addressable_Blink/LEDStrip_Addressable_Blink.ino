@@ -1,3 +1,21 @@
+//===================================================================
+// File: LEDStrip_Addresable_Blink.ino
+//
+// Description:
+// - Sketch for blinking an addressable LED strip ring on and off 
+//   every second.
+//
+// Pinout:
+//
+// | LED Strip | Arduino |
+// |---------- |---------|
+// | GND	     | GND     |   
+// | 5V 	     | 5V      |      
+// | IN	       | D6      |
+//
+// This code is in the public domain.
+//===================================================================
+
 #include <Adafruit_NeoPixel.h>
   
 // Store pin number and no. pixels as variables

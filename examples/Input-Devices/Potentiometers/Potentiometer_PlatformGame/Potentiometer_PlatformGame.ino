@@ -1,10 +1,20 @@
 //===================================================================
-// Potentiometer Platform Game
+// File: Potentiometer_PlatformGame.ino
 //
+// Description:
 // - Connect potentiometer to pin A0
 // - Upload sketch
 // - Open Serial Monitor for instructions 
 // - Open Serial Plotter
+//
+// Pinout:
+//
+// GND <--- Potentiometer <--- 5V
+//                |
+//                |
+//               A0
+//
+// This code is in the public domain.
 //===================================================================
 
 // Store pin number

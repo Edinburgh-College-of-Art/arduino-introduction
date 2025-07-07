@@ -1,3 +1,22 @@
+//======================================================================
+// File: LEDStrip_Addressable_Rainbow.ino
+//
+// Description:
+// - This sketch will make the LED strip display a rainbow pattern.
+// - The Adafruit_NeoPixel library shows us how to do this this in its 
+//   strandtest example.
+//
+// Pinout:
+//
+// | LED Strip | Arduino |
+// |---------- |---------|
+// | GND	     | GND     |   
+// | 5V 	     | 5V      |      
+// | IN	       | D6      |
+//
+// This code is in the public domain.
+//=======================================================================
+
 #include <Adafruit_NeoPixel.h>
 
 // Store pin number and no. pixels as variables

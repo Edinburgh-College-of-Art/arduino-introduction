@@ -1,3 +1,27 @@
+//===========================================================================
+// File: L289N_DriverDC_Example.ino
+//
+// Description:
+// - This sketch demonstrates how to use a L298N DC motor driver to control
+//   two DC motors.
+//
+// Pinout:
+//
+// | L298N | Arduino |
+// |------ |---------|
+// | GND   | GND     |  
+// | 5V    | 5V      |      
+// | ENA   | D10     |
+// | IN1   | D9      |
+// | IN2   | D8      |
+// | ENB   | D7      |
+// | IN3   | D6      |
+// | IN4   | D5      |
+//
+// This code is in the public domain.
+//===========================================================================
+
+
 // Motor 1 Pins
 int enA = 10;  // PWM pin for speed control
 int in1 = 9;

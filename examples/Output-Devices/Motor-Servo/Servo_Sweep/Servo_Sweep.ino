@@ -1,3 +1,21 @@
+//======================================================================
+// File: Servo_Sweep.ino
+//
+// Description:
+// - This sketch demonstrates how to usea Servo motor.
+// - It will sweep the arm from 0° to 90° to 180°.
+//
+// Pinout:
+//
+// | Servo          | Arduino |
+// |--------------- |---------|
+// | Black/Brown    | GND     |   
+// | Red            | 5V      |      
+// | Orange/White   | D6      |
+//
+// This code is in the public domain.
+//=======================================================================
+
 #include <Servo.h> 
   
 // Declare the servo pin location

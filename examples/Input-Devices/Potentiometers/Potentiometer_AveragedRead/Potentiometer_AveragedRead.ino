@@ -1,10 +1,21 @@
-//=============================================================
-// Potentiometer_AveragedRead.ino
+//===================================================================
+// File: Potentiometer_AveragedRead.ino
 //
+// Description:
 // - Calculate Average of 50 potentiometer readings.
 // - Averaging readings should give more stable stream of data.
 // - Averaging will also slow down any quick changes to input.
-//=============================================================
+// - Results printed to serial monitor.
+//
+// Pinout:
+//
+// GND <--- Potentiometer <--- 5V
+//                |
+//                |
+//               A0
+//
+// This code is in the public domain.
+//===================================================================
 
 // Define pin number
 #define POT_PIN A0

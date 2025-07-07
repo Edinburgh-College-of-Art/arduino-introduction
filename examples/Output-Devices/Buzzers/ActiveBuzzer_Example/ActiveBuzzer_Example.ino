@@ -1,3 +1,17 @@
+//===================================================================
+// File: ActiveBuzzer_Example.ino
+//
+// Description:
+// - Sketch for using an active buzzer.
+// - 1 second on, 1 second off.
+//
+// Pinout:
+//
+// GND <--- Buzzer <--- D3
+//
+// This code is in the public domain.
+//===================================================================
+
 int buzzerPin = 3;  // Connect buzzer to pin 3
 
 void setup() {

@@ -1,9 +1,18 @@
-//=============================================================
-// Potentiometer_BasicRead.ino
+//===================================================================
+// File: Potentiometer_BasicRead.ino
 //
+// Description:
 // - Use analogRead() to get potentiometer value.
-// - Send data to Serial Monitor.
-//=============================================================
+//
+// Pinout:
+//
+// GND <--- Potentiometer <--- 5V
+//                |
+//                |
+//               A0
+//
+// This code is in the public domain.
+//===================================================================
 
 // Store pin number
 int potPin = A0;

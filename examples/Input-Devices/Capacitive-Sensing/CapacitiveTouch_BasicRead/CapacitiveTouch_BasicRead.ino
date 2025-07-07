@@ -1,3 +1,19 @@
+//===================================================================
+// File: CapacitiveTouch_BasicRead.ino
+//
+// Description:
+// - Sketch for using the CapacitiveSensor.h library to read the 
+//   input value of a capacitive touch sensor.
+// 
+// Pinout:
+// 
+// Conductive Material ---> D2
+//            |
+//            ---> 1MΩ ---> D3
+//
+// This code is in the public domain.
+//===================================================================
+
 #include <CapacitiveSensor.h>
 
 #define SENSOR_PIN 2     // Pin connected to sensor (conductive material)

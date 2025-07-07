@@ -1,3 +1,22 @@
+//======================================================================
+// File: LEDStrip_Addressable_MovingPixel.ino
+//
+// Description:
+// - This sketch will make the LED strip look like it has a moving pixel.
+// - It does this by incrementing the pixel that is on while turning 
+//   all other pixels off.
+//
+// Pinout:
+//
+// | LED Strip | Arduino |
+// |---------- |---------|
+// | GND	     | GND     |   
+// | 5V 	     | 5V      |      
+// | IN	       | D6      |
+//
+// This code is in the public domain.
+//=======================================================================
+
 #include <Adafruit_NeoPixel.h>
 
 // Store pin number and no. pixels as variables

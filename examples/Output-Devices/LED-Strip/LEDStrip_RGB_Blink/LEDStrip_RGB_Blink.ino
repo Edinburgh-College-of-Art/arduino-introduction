@@ -1,3 +1,22 @@
+//===========================================================================
+// File: LEDStrip_RGB_Blink.ino
+//
+// Description:
+// - This sketch will blink an RGB LED strip on and off every second.
+// - By changing the R, G and B brightness values, you mix and create colours.
+//
+// Pinout:
+//
+// | LED Strip | Arduino   |
+// |---------- |-----------|
+// | GND or 5V | GND or 5V |  * This depends on the type of LED strip.  
+// | R 	       | D3        |      
+// | G	       | D5        |
+// | B	       | D6        |
+//
+// This code is in the public domain.
+//===========================================================================
+
 // Define pin numbers for LED pins
 // Should be PWM pins (~)
 int pinR = 3;

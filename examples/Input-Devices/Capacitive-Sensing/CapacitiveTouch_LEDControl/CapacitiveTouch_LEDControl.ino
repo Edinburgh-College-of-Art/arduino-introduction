@@ -1,3 +1,25 @@
+//===================================================================
+// File: CapacitiveTouch_BasicRead.ino
+//
+// Description:
+// - Sketch for using the CapacitiveSensor.h library to read the 
+//   input value of a capacitive touch sensor.
+// - This sketch uses the input value to control an LED.
+// - Sensitivity can be adjusted by varying the THRESHOLD value.
+// 
+// Pinout:
+// 
+// Conductive Material ---> D2
+//            |
+//            ---> 1MΩ ---> D3
+//
+// LED <--- 220Ω <--- D13*
+//
+// *LED is optional as D13 also controls the built-in LED
+//
+// This code is in the public domain.
+//===================================================================
+
 #include <CapacitiveSensor.h>
 
 #define LED_PIN 13       // Pin connected to LED

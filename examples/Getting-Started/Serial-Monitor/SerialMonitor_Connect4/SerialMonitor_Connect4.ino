@@ -1,7 +1,17 @@
 //===================================================================
 // File: SerialMonitor_Connect4.ino
 //
-// Play connect 4 in the Serial Monitor
+// Description: 
+// - 2-player connect 4 game.
+// - Upload sketch to Arduino and open the serial monitor to play.
+//
+// Instructions:
+// - Players take turn entering pieces onto board.
+// - Enter a number corresponding to the column you want to play your
+//   piece in.
+// - First player to connect 4 pieces wins.
+//
+// This code is in the public domain.
 //===================================================================
 
 #define WIDTH 9   // must be between 4-9
