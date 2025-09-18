@@ -2,48 +2,62 @@
 
 ![](images/Banner_Arduino_.png)
 
-## Repo Contents
 
-- Getting Started
-    - [Arduino Boards](/examples/Getting-Started/Arduino-Boards/README.md)
-    - [Arduino IDE](/examples/Getting-Started/Arduino-IDE/README.md)
-    - [Serial Monitor](/examples/Getting-Started/Serial-Monitor/README.md)
-- Arduino Programming Language
-    - [Overview](/examples/Code/01-Overview/README.md)
-    - [Operators](/examples/Code/02-Operators/README.md)
-    - [Variables](/examples/Code/03-Variables/README.md)
-    - [Control Flow](/examples/Code/04-ControlFlow/README.md)
-    - [Functions](/examples/Code/05-Functions/README.md)
-    - [Classes](/examples/Code/06-Classes/README.md)
-    - [Libraries](/examples/Code/07-Libraries/README.md)
-    - [Timing](/examples/Code/08-Timing/README.md)
-    - [Scaling](/examples/Code/09-Scaling/README.md)
-    - [String Methods](/examples/Code/10-StringMethods/README.md)
-    - [Merging Sketches](/examples/Code/11-MergingSketches/README.md)
-- Inputs
-    - Input Types
-        - [Digital](/examples/Input-Devices/Input-Types/Digital/README.md)
-        - [Analog](/examples/Input-Devices/Input-Types/Analog/README.md)
-    - Input Devices (Alphabetical)
-        - [Buttons](/examples/Input-Devices/Buttons/)
-        - [Capacitive Touch Sensing](/examples/Input-Devices/Capacitive-Sensing/)
-        - [Distance Sensors - Ultrasonic](/examples/Input-Devices/Distance-Sensor-SR04/)
-        - [Force Sensors - FSRs](/examples/Input-Devices/FSRs/)
-        - [Light Sensor - LDRs](/examples/Input-Devices/LDRs/)
-        - [Potentiometers](/examples/Input-Devices/Potentiometers/)
-        - [Weight Sensors - Load Cells](/examples/Input-Devices/Load-Cells/)
-- Outputs
-    - Output Types
-        - [Digital](/examples/Output-Devices/Output-Types/Digital/README.md)
-        - [Analog (PWM)](/examples/Output-Devices/Output-Types/Analog-PWM/README.md)
-    - Output Devices (Alphabetical)
-        - [Buzzers](/examples/Output-Devices/Buzzers/)
-        - [LEDs - NeoPixel](/examples/Output-Devices/LED-NeoPixel/)
-        - [LEDs - Single](/examples/Output-Devices/LED-DIP/)
-        - [LEDs - Strips](/examples/Output-Devices/LED-Strip/)
-        - [Motors - DC](/examples/Output-Devices/Motor-DC/)
-        - [Motors - Servo](/examples/Output-Devices/Motor-Servo/)
-        - [Motors - Stepper](/examples/Output-Devices/Motor-Stepper/)
+## Contents
+
+- [Getting Started](#getting-started)
+- [Arduino Programming Language](#arduino-programming-language)
+- [Inputs](#inputs)
+- [Outputs](#outputs)
+- [Useful Resources](#useful-resources)
+
+
+## Getting Started
+
+[<img src="images/Thumbnail_ArduinoBoards.png" width="250"/>](/examples/Getting-Started/Arduino-Boards/README.md) 
+[<img src="images/Thumbnail_IDE.png" width="250"/>](/examples/Getting-Started/Arduino-IDE/README.md) 
+[<img src="images/Thumbnail_SerialMonitor.png" width="250"/>](/examples/Getting-Started/Serial-Monitor/README.md)
+
+
+## Arduino Programming Language
+
+[<img src="images/Thumbnail_CodingOverview.png" width="250"/>](/examples/Code/01-Overview/README.md) 
+[<img src="images/Thumbnail_Operators.png" width="250"/>](/examples/Code/02-Operators/README.md)
+[<img src="images/Thumbnail_Variables.png" width="250"/>](/examples/Code/03-Variables/README.md) 
+[<img src="images/Thumbnail_ControlFlow.png" width="250"/>](/examples/Code/04-ControlFlow/README.md) [<img src="images/Thumbnail_Functions.png" width="250"/>](/examples/Code/05-Functions/README.md) 
+[<img src="images/Thumbnail_Classes.png" width="250"/>](/examples/Code/06-Classes/README.md) 
+[<img src="images/Thumbnail_Libraries.png" width="250"/>](/examples/Code/07-Libraries/README.md) 
+[<img src="images/Thumbnail_Timing.png" width="250"/>](/examples/Code/08-Timing/README.md) 
+[<img src="images/Thumbnail_Scaling.png" width="250"/>](/examples/Code/09-Scaling/README.md) 
+[<img src="images/Thumbnail_StringMethods.png" width="250"/>](/examples/Code/10-StringMethods/README.md) 
+[<img src="images/Thumbnail_MergingSketches.png" width="250"/>](/examples/Code/11-MergingSketches/README.md)
+
+
+## Inputs
+
+[<img src="images/Thumbnail_Inputs_Digital.png" width="250"/>](/examples/Input-Devices/Input-Types/Digital/README.md) 
+[<img src="images/Thumbnail_Inputs_Analog.png" width="250"/>](/examples/Input-Devices/Input-Types/Analog/README.md) 
+[<img src="images/Thumbnail_Buttons.png" width="250"/>](/examples/Input-Devices/Buttons/) 
+[<img src="images/Thumbnail_CapacitiveTouch.png" width="250"/>](/examples/Input-Devices/Capacitive-Sensing/) 
+[<img src="images/Thumbnail_SR04.png" width="250"/>](/examples/Input-Devices/Distance-Sensor-SR04/) 
+[<img src="images/Thumbnail_FSR.png" width="250"/>](/examples/Input-Devices/FSRs/) 
+[<img src="images/Thumbnail_LDR.png" width="250"/>](/examples/Input-Devices/LDRs/) 
+[<img src="images/Thumbnail_Potentiometer.png" width="250"/>](/examples/Input-Devices/Potentiometers/) 
+[<img src="images/Thumbnail_LoadCell.png" width="250"/>](/examples/Input-Devices/Load-Cells/) 
+
+
+## Outputs
+
+[<img src="images/Thumbnail_Outputs_Digital.png" width="250"/>](/examples/Output-Devices/Output-Types/Digital/README.md) 
+[<img src="images/Thumbnail_Outputs_PWM.png" width="250"/>](/examples/Output-Devices/Output-Types/Analog-PWM/README.md) 
+[<img src="images/Thumbnail_Buzzers.png" width="250"/>](/examples/Output-Devices/Buzzers/) 
+[<img src="images/Thumbnail_LED_NeoPixel.png" width="250"/>](/examples/Output-Devices/LED-NeoPixel/) 
+[<img src="images/Thumbnail_LED_Single.png" width="250"/>](/examples/Output-Devices/LED-DIP/) 
+[<img src="images/Thumbnail_LED_Strip.png" width="250"/>](/examples/Output-Devices/LED-Strip/) 
+[<img src="images/Thumbnail_Motor_DC.png" width="250"/>](/examples/Output-Devices/Motor-DC/) 
+[<img src="images/Thumbnail_Motor_Servo.png" width="250"/>](/examples/Output-Devices/Motor-Servo/) 
+[<img src="images/Thumbnail_Motor_Stepper.png" width="250"/>](/examples/Output-Devices/Motor-Stepper/) 
+
 
 ## Useful Resources
 - Websites
