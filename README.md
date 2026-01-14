@@ -47,6 +47,7 @@
 [<img src="images/Thumbnail_Outputs_Digital.png" width="250"/>](/examples/Output-Devices/Output-Types/Digital/README.md)
 [<img src="images/Thumbnail_Outputs_PWM.png" width="250"/>](/examples/Output-Devices/Output-Types/Analog-PWM/README.md)
 [<img src="images/Thumbnail_Buzzers.png" width="250"/>](/examples/Output-Devices/Buzzers/)
+[<img src="images/Thumbnail_DFPlayer.png" width="250"/>](/examples/Output-Devices/DFPlayer/)
 [<img src="images/Thumbnail_LED_NeoPixel.png" width="250"/>](/examples/Output-Devices/LED-NeoPixel/)
 [<img src="images/Thumbnail_LED_Single.png" width="250"/>](/examples/Output-Devices/LED-DIP/)
 [<img src="images/Thumbnail_LED_Strip.png" width="250"/>](/examples/Output-Devices/LED-Strip/)
