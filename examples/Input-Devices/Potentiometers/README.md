@@ -38,6 +38,11 @@ As mentioned previously, to get a variable voltage reading from a potentiometer,
 
 ![](images/Pot_Wiring.png)
 
+If you want to connect an LED to use the [Potentiometer_LEDControl sketch](./Potentiometer_LEDControl/Potentiometer_LEDControl.ino), you follow this diagram.
+
+![](images/Pot_LED_Wiring.png)
+
+
 ### Code
 Unlike when using the Arduinos' [digital input](/examples/Input-Devices/Input-Types/Digital/README.md) pins, we do not need to use `pinMode()` function to set the [analog pins](/examples/Input-Devices/Input-Types/Analog/README.md) to work as inputs. They are set to `INPUT` by default.
 
