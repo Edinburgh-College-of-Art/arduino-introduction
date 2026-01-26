@@ -14,7 +14,7 @@
 
 [<img src="images/Thumbnail_ArduinoBoards.png" width="250"/>](/examples/Getting-Started/Arduino-Boards/README.md)
 [<img src="images/Thumbnail_IDE.png" width="250"/>](/examples/Getting-Started/Arduino-IDE/README.md)
-[<img src="images/Thumbnail_SerialMonitor.png" width="250"/>](/examples/Getting-Started/Serial-Monitor/README.md)
+[<img src="images/Thumbnail_SerialMonitor.png" width="250"/>](/examples/Getting-Started/Serial-Monitor)
 
 ## Arduino Programming Language
 
