@@ -23,20 +23,6 @@ NeoPixels come in various forms including individual pixel modules, strips, ring
 ## Wiring
 Wires will need to be soldered to the pins on the NeoPixel in order to use it with Arduino. If you have a NeoPixel that requires wires to be soldered to it, please contact DigiDevECA@ed.ac.uk to arrange a technician to do this for you.
 
-On any NeoPixel product, you will find 4 pins: 
-
-- **PWR/5V**
-- **GND**
-- **Data In**
-- **Data Out**
- 
-**PWR** and **GND** are for powering the NeoPixel can be connected to 5V and GND on the Arduino respectively. 
-
-**Data In** is where the NeoPixel receives the signal from the Arduino telling it what colour and brightness each pixel should be. This can be connected to any of the PWM pins on your Arduino. These are the pins marked with a tilde (~).
-
-**Data out** is where you can connected multiple NeoPixel products together. By connecting the Data out of one NeoPixel to the Data in of another, you can effectively combine them into one device, controllable using one Arduino pin. For most cases however, you shouldn't need to do this.
-
-For example, you may choose to connect your NeoPixel to your Arduino board using the following connections:
 
 | NeoPixel | Arduino           |
 | -------- | ----------------- |
@@ -44,6 +30,14 @@ For example, you may choose to connect your NeoPixel to your Arduino board using
 | PWR      | 5V                |
 | Data In  | PWM Pin (e.g. D3) |
 | Data Out | -                 |
+
+<img src="./images/Wiring.png" width="600">
+
+If you are wiring several NeoPixel devices together - or a large NeoPixel LED strip - you may need to connect an external 5V DC power supply to provide enough power to drive all of the pixels. 
+
+**Important:** Make sure that ground (negative/-) on the power supply is also connected to GND on the Arduino.
+
+<img src="./images/Wiring_WithPower.png" width="600">
 
 ## Adafruit NeoPixel Library
 ### Installing
