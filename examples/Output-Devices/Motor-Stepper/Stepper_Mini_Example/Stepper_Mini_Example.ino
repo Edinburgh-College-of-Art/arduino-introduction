@@ -22,7 +22,7 @@
 #define IN3 3
 #define IN4 5
 
-#define STEPS_PER_REV = 2048;  // number of steps per full revolution
+#define STEPS_PER_REV 2048  // number of steps per full revolution
 
 // Create stepper object
 Stepper stepper(STEPS_PER_REV, IN1, IN2, IN3, IN4);
